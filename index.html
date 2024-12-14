@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todolist</title>
+</head>
+
+<body>
+    <div id="weather">
+    </div>
+    <form id="login-form" class="hidden">
+        <input required maxlength="10" type="text" placeholder="What is your name" />
+    </form>
+    <span id="greeting" class="hidden"></span>
+    <div id="datetime">
+        <span id="date"></span>
+        <span id="time"></span>
+        <div id="quote">
+            <span>"Merry Christmas"</span>
+        </div>
+    </div>
+
+    <div id="mood">
+        <span id="mood-title">Choose Your mood</span>
+        <span class="mood-button-list">
+            <button type="button" id = "blueButton" class="mood-button">
+                <img src="img/button/blue_button.png">
+            </button>
+            <button type="button" id = "greenButton" class="mood-button">
+                <img src="img/button/green_button.png">
+            </button>
+            <button type="button" id = "redButton" class="mood-button">
+                <img src="img/button/red_button.png">
+            </button>
+            <button type="button" id = "yellowButton" class="mood-button">
+                <img src="img/button/yellow_button.png">
+            </button>
+        </span>
+    </div>
+
+    <div id ="daily-routine">
+        <span id = "daily-routine-title">Daily Routine</span>
+        <form id = "daily-form"><input type="text" placeholder=">>Enter your Routine"/></form>
+        <div id="daily-container">
+            <ul id="daily-list">
+            </ul>
+        </div>
+    </div>
+
+    <div id ="Todays-TodoList">
+        <span id = "ToDoList-title">Today's To-Do List</span>
+        <form id ="todo-form"><input type="text" placeholder=">>Enter your To-do List"/></form>
+        <div id="Todays-todo-container">
+            <ul id="todo-list">
+            </ul>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <img src = "img/coffee.png">
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/mood.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/dailyroutine.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
