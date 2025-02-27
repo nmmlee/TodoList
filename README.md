@@ -3,6 +3,7 @@
 
 ## 개발기간
 - 스터디 기간 2024/12/02 ~ 2024/12/16 내에 개발 완료
+- 사이트 링크 (https://nmmlee.github.io/TodoList/)
 
 ## 결과물
 - (https://nomadcoders.co/community/thread/10558)
